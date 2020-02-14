@@ -1,0 +1,23 @@
+Table 1: Simple Class Output
+
+  Sex  Name            Age     Height     Weight
+  ----------------------------------------------
+  F    Alice            13       56.5         84
+       Barbara          13       65.3         98
+       Carol            14       62.8      102.5
+       Jane             12       59.8       84.5
+       Janet            15       62.5      112.5
+       Joyce            11       51.3       50.5
+       Judy             14       64.3         90
+       Louise           12       56.3         77
+       Mary             15       66.5        112
+  M    Alfred           14         69      112.5
+       Henry            14       63.5      102.5
+       James            12       57.3         83
+       Jeffrey          13       62.5         84
+       John             12         59       99.5
+       Philip           16         72        150
+       Robert           12       64.8        128
+       Ronald           15         67        133
+       Thomas           11       57.5         85
+       William          15       66.5        112

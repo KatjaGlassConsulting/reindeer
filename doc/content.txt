@@ -1,0 +1,15 @@
+Replace;[todayDate];[todayDate]
+Replace;[reportID];REPI025889
+Replace;[creator];Katja Glass Consulting (2)
+Replace;[sponsor];ClinStat GmbH
+Header1;ResultRenderer Example Document According Content File
+Header2;Listing Outputs Below
+Listing;01_class.lst
+Listing;02_cars.lst
+Listing;03_cars_page.lst
+Listing;04_cars_multioutput.lst
+Header2;RTF Outputs Below
+RTF;07_class.rtf
+RTF;08_cars.rtf
+RTF;09_cars.rtf
+RTF;10_12_cars.rtf

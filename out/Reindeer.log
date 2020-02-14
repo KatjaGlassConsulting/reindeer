@@ -1,0 +1,22 @@
+INFO: Reindeer ResultRenderer starting : 14.02.2020 08:58:26
+INFO: ConfigurationFile = 
+INFO: ContentFile = 
+INFO: ResultsBasePath = C:\temp\git\reindeer\out
+INFO: ToolLog = C:\temp\git\reindeer\out\Reindeer.log
+INFO: ToolOutput = C:\temp\git\reindeer\out\final_out.docx
+INFO: ToolTemplate = C:\temp\git\reindeer\doc\Reindeer_ExampleTemplate.docx
+INFO: FontHeading1 = CustomHeader 1
+INFO: FontHeading2 = CustomHeader 2
+INFO: FontHeading3 = 
+INFO: FontTitleCaption = CustomCaption
+INFO: FontContentText = CustomTextResult
+INFO: FontContentRTF = CustomRTFResult
+INFO: Process Listing File: 01_class.lst
+INFO: Process Listing File: 02_cars.lst
+INFO: Process Listing File: 03_cars_page.lst
+INFO: Process Listing File: 04_cars_multioutput.lst
+INFO: Process RTF file: 07_class.rtf
+INFO: Process RTF file: 08_cars.rtf
+INFO: Process RTF file: 09_cars.rtf
+INFO: Process RTF file: 10_12_cars.rtf
+INFO: Reindeer ResultRenderer finished : 14.02.2020 08:58:36

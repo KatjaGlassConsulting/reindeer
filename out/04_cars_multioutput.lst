@@ -1,0 +1,61 @@
+Table 4: Multiple outputs in one File - Cars for make = Acura
+with multiple titles.
+
+  Make           Model                                     Type          MSRP
+  ---------------------------------------------------------------------------
+  Acura           MDX                                      SUV        $36,945
+  Acura           RSX Type S 2dr                           Sedan      $23,820
+  Acura           TSX 4dr                                  Sedan      $26,990
+  Acura           TL 4dr                                   Sedan      $33,195
+  Acura           3.5 RL 4dr                               Sedan      $43,755
+  Acura           3.5 RL w/Navigation 4dr                  Sedan      $46,100
+  Acura           NSX coupe 2dr manual S                   Sports     $89,765
+Table 5: Multiple outputs in one File - Cars for make = Audi
+with multiple titles.
+
+  Make           Model                                     Type          MSRP
+  ---------------------------------------------------------------------------
+  Audi            A4 1.8T 4dr                              Sedan      $25,940
+  Audi            A41.8T convertible 2dr                   Sedan      $35,940
+  Audi            A4 3.0 4dr                               Sedan      $31,840
+  Audi            A4 3.0 Quattro 4dr manual                Sedan      $33,430
+  Audi            A4 3.0 Quattro 4dr auto                  Sedan      $34,480
+  Audi            A6 3.0 4dr                               Sedan      $36,640
+  Audi            A6 3.0 Quattro 4dr                       Sedan      $39,640
+  Audi            A4 3.0 convertible 2dr                   Sedan      $42,490
+  Audi            A4 3.0 Quattro convertible 2dr           Sedan      $44,240
+  Audi            A6 2.7 Turbo Quattro 4dr                 Sedan      $42,840
+  Audi            A6 4.2 Quattro 4dr                       Sedan      $49,690
+  Audi            A8 L Quattro 4dr                         Sedan      $69,190
+  Audi            S4 Quattro 4dr                           Sedan      $48,040
+  Audi            RS 6 4dr                                 Sports     $84,600
+  Audi            TT 1.8 convertible 2dr (coupe)           Sports     $35,940
+  Audi            TT 1.8 Quattro 2dr (convertible)         Sports     $37,390
+  Audi            TT 3.2 coupe 2dr (convertible)           Sports     $40,590
+  Audi            A6 3.0 Avant Quattro                     Wagon      $40,840
+  Audi            S4 Avant Quattro                         Wagon      $49,090
+Table 6: Multiple outputs in one File - Cars for make = BMW
+with multiple titles.
+
+  Make           Model                                     Type          MSRP
+  ---------------------------------------------------------------------------
+  BMW             X3 3.0i                                  SUV        $37,000
+  BMW             X5 4.4i                                  SUV        $52,195
+  BMW             325i 4dr                                 Sedan      $28,495
+  BMW             325Ci 2dr                                Sedan      $30,795
+  BMW             325Ci convertible 2dr                    Sedan      $37,995
+  BMW             325xi 4dr                                Sedan      $30,245
+  BMW             330i 4dr                                 Sedan      $35,495
+  BMW             330Ci 2dr                                Sedan      $36,995
+  BMW             330xi 4dr                                Sedan      $37,245
+  BMW             525i 4dr                                 Sedan      $39,995
+  BMW             330Ci convertible 2dr                    Sedan      $44,295
+  BMW             530i 4dr                                 Sedan      $44,995
+  BMW             545iA 4dr                                Sedan      $54,995
+  BMW             745i 4dr                                 Sedan      $69,195
+  BMW             745Li 4dr                                Sedan      $73,195
+  BMW             M3 coupe 2dr                             Sports     $48,195
+  BMW             M3 convertible 2dr                       Sports     $56,595
+  BMW             Z4 convertible 2.5i 2dr                  Sports     $33,895
+  BMW             Z4 convertible 3.0i 2dr                  Sports     $41,045
+  BMW             325xi Sport                              Wagon      $32,845
