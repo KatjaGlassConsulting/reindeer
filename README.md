@@ -31,6 +31,7 @@ Adapt files to your need
 File | Description
 --- | ---
 doc/Reindeer.docm | Tool containing VBA Macro
+doc/Reindeer.pdf | Reindeer.docm content as PDF for easy reading
 doc/Reindeer_ExampleTemplate.doc | Example template
 doc/config.txt | Example Configuration Text File
 doc/content.txt | Example Content Text File
