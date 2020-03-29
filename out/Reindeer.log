@@ -1,4 +1,4 @@
-INFO: Reindeer ResultRenderer starting : 14.02.2020 08:58:26
+INFO: Reindeer ResultRenderer starting : 29.03.2020 08:20:03
 INFO: ConfigurationFile = 
 INFO: ContentFile = 
 INFO: ResultsBasePath = C:\temp\git\reindeer\out
@@ -11,6 +11,9 @@ INFO: FontHeading3 =
 INFO: FontTitleCaption = CustomCaption
 INFO: FontContentText = CustomTextResult
 INFO: FontContentRTF = CustomRTFResult
+INFO: FigureMaxHeight =  0
+INFO: FigureMaxWidth =  0
+INFO: TodayDateFormat = 
 INFO: Process Listing File: 01_class.lst
 INFO: Process Listing File: 02_cars.lst
 INFO: Process Listing File: 03_cars_page.lst
@@ -19,4 +22,14 @@ INFO: Process RTF file: 07_class.rtf
 INFO: Process RTF file: 08_cars.rtf
 INFO: Process RTF file: 09_cars.rtf
 INFO: Process RTF file: 10_12_cars.rtf
-INFO: Reindeer ResultRenderer finished : 14.02.2020 08:58:36
+INFO: Process RTF file: 12_2_class.rtf
+INFO: Process Figure file: 19_image.jpg
+INFO: Process Figure file: 20_width.gif
+INFO: Process Figure file: 21_height.png
+INFO: Process Figure file: 19_image.jpg
+INFO: Process RTF file: 13_class.rtf
+INFO: Process RTF file: 14_cars.rtf
+INFO: Process RTF file: 15_cars.rtf
+INFO: Process RTF file: 16_18_cars.rtf
+INFO: Process RTF file: 18_2_class.rtf
+INFO: Reindeer ResultRenderer finished : 29.03.2020 08:20:25
