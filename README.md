@@ -12,6 +12,11 @@ This open source tool is developed by Katja Glass Consulting and sponsored by Cl
 
 Additional sponsoring and funding opportunities are available. If you are interested in supporting this project, please get in touch with me.
 
+The following graphic shows the process flow:
+
+![Process Flow](./images/process_flow.gif)
+
+
 ## Usage
 
 - Clone or Download the repository
