@@ -1,4 +1,4 @@
-INFO: Reindeer ResultRenderer starting : 29.03.2020 08:20:03
+INFO: Reindeer ResultRenderer starting : 30.10.2020 14:13:25
 INFO: ConfigurationFile = 
 INFO: ContentFile = 
 INFO: ResultsBasePath = C:\temp\git\reindeer\out
@@ -32,4 +32,4 @@ INFO: Process RTF file: 14_cars.rtf
 INFO: Process RTF file: 15_cars.rtf
 INFO: Process RTF file: 16_18_cars.rtf
 INFO: Process RTF file: 18_2_class.rtf
-INFO: Reindeer ResultRenderer finished : 29.03.2020 08:20:25
+INFO: Reindeer ResultRenderer finished : 30.10.2020 14:14:04
