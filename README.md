@@ -4,7 +4,7 @@ Reindeer - Result Render tool for SAS outputs
 ![Reindeer Logo](./images/reindeer_001_200.png)
 
 ## About
-The Reindeer Result Render open source tool contains a VBA macro which can be used to render multiple outputs created with SAS® into one Word document. 
+The Reindeer Result Render open source tool contains a VBA macro which can be used to render multiple outputs created with SAS® into one Word document which can be exported to PDF as well. 
 
 Currently listing (.lst or .txt) and rtf outputs as well as graphics are supported. Detailed documentation is available in the file containing the macro as well called  "Reindeer.docm".
 
@@ -36,6 +36,12 @@ Adapt files to your need
 - listing (lst, txt)
 - rtf (TAGSETS.RTF, ODS RTF)
 - figures (jpg, png, svn, ...)
+
+## Remarks to Side Navigation
+
+Be aware that captions which are inside a table does not appear on the navigation pane. This is a Microsoft Word limitation. 
+
+When using TAGSETS.RTF and having the titles in table cells, this will never be in the navigation pane.
 
 ## Repository Content
 

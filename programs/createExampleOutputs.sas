@@ -1,9 +1,10 @@
 %LET root = /folders/myshortcuts/git;
-%LET out = &root/sas-dev/Reindeer/out/;
+%LET out = &root/reindeer/out/;
 
-OPTIONS NODATE NONUMBER NOCENTER;
+OPTIONS NODATE NONUMBER NOCENTER ORIENTATION=landscape;
 TITLE;FOOTNOTE;
 ODS LISTING;
+ODS ESCAPECHAR="^";
 OPTIONS PS=35;
 
 ************* outputs ****************;
@@ -100,8 +101,8 @@ ODS RTF FILE="&out/10_12_cars.rtf" BODYTITLE STARTPAGE=YES STYLE=journal;
 %loopTroughMake(BMW,12);
 ODS RTF CLOSE;
 
-ODS RTF FILE="&out/12_2_class.rtf" BODYTITLE STARTPAGE=YES STYLE=journal;
-TITLE1 "Table 12.2: RTF Class output";
+ODS RTF FILE="&out/13_class.rtf" BODYTITLE STARTPAGE=YES STYLE=journal;
+TITLE1 "Table 13: RTF Class output";
 TITLE3 "with a sub title";
 PROC REPORT DATA=sashelp.class nowd headline spacing=2;
 	COLUMN sex name age height weight;
@@ -112,8 +113,8 @@ ODS RTF CLOSE;
 
 ************* ODS TAGSET RTF outputs ****************;
 
-ODS TAGSETS.RTF FILE="&out/13_class.rtf" STYLE=journal;
-TITLE "Table 13: TAGSET RTF Class output";
+ODS TAGSETS.RTF FILE="&out/14_class.rtf" STYLE=journal;
+TITLE "Table 14: TAGSET RTF Class output";
 FOOTNOTE "with a footnote";
 PROC REPORT DATA=sashelp.class nowd headline spacing=2;
 	COLUMN sex name age height weight;
@@ -123,8 +124,8 @@ RUN;
 ODS TAGSETS.RTF CLOSE;
 
 
-ODS TAGSETS.RTF FILE="&out/14_cars.rtf" STYLE=journal;
-TITLE "Table 14: RTF - Multi page cars output";
+ODS TAGSETS.RTF FILE="&out/15_cars.rtf" STYLE=journal;
+TITLE "Table 15: RTF - Multi page cars output";
 FOOTNOTE1 "Created as example.";
 FOOTNOTE2 "This includes footnotes.";
 PROC REPORT DATA=sashelp.cars(WHERE=(make < "Chevrolet")) nowd headline spacing=2;
@@ -133,8 +134,8 @@ RUN;
 TITLE;FOOTNOTE;
 ODS TAGSETS.RTF CLOSE;
 
-ODS TAGSETS.RTF FILE="&out/15_cars.rtf" STYLE=journal;
-TITLE "Table 15: RTF - Multi page cars output with PAGE grouping";
+ODS TAGSETS.RTF FILE="&out/16_cars.rtf" STYLE=journal;
+TITLE "Table 16: RTF - Multi page cars output with PAGE grouping";
 TITLE2 "and multiple heading lines";
 FOOTNOTE1 "Created as example.";
 FOOTNOTE2 "This includes footnotes.";
@@ -147,14 +148,14 @@ RUN;
 TITLE;FOOTNOTE;
 ODS TAGSETS.RTF CLOSE;
 
-ODS TAGSETS.RTF FILE="&out/16_18_cars.rtf" STYLE=journal;
-%loopTroughMake(Acura,16);
-%loopTroughMake(Audi,17);
-%loopTroughMake(BMW,18);
+ODS TAGSETS.RTF FILE="&out/17_19_cars.rtf" STYLE=journal;
+%loopTroughMake(Acura,17);
+%loopTroughMake(Audi,18);
+%loopTroughMake(BMW,19);
 ODS TAGSETS.RTF CLOSE;
 
-ODS TAGSETS.RTF FILE="&out/18_2_class.rtf" STYLE=journal;
-TITLE1 "Table 18.2: TAGSET RTF Class output with another subtitle";
+ODS TAGSETS.RTF FILE="&out/20_class.rtf" STYLE=journal;
+TITLE1 "Table 20: TAGSET RTF Class output with another subtitle";
 TITLE3 "on a further title line";
 PROC REPORT DATA=sashelp.class nowd headline spacing=2;
 	COLUMN sex name age height weight;
@@ -163,11 +164,12 @@ PROC REPORT DATA=sashelp.class nowd headline spacing=2;
 RUN;
 ODS TAGSETS.RTF CLOSE;
 
+
 ************* image outputs ****************;
 
 ods listing gpath="&out";
 ods graphics / 
-	imagename="19_image" 
+	imagename="img1_image" 
 	imagefmt=jpg
 	width=500px
   	height=300px;
@@ -180,7 +182,7 @@ ods graphics /
       width=2000px
       height=1000px
       outputfmt=gif
-      imagename="20_width";
+      imagename="img2_width";
 PROC SGPLOT DATA = sashelp.class;
  	VBAR age / GROUP = sex;
  	TITLE1 'Figure 2: Huge sized graphic';
@@ -191,7 +193,7 @@ ods graphics /
       width=1000px
       height=2000px
       outputfmt=png
-      imagename="21_height";
+      imagename="img3_height";
 PROC SGPLOT DATA = sashelp.class;
  	VBAR age / GROUP = sex;
  	TITLE1 'Figure 3: Portrait graphic';

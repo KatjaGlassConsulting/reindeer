@@ -1,0 +1,41 @@
+Replace;[todayDate];[todayDate]
+Replace;[reportID];REPI025889
+Replace;[creator];Katja Glass Consulting
+Replace;[sponsor];ClinStat GmbH
+Header1;Reindeer Example Document
+Header2;Listing Outputs with[linefeed]many fancy outputs
+Listing;01_class.lst
+Listing;02_cars.lst
+Listing;03_cars_page.lst
+Listing;04_cars_multioutput.lst
+Header2;RTF Outputs
+RTF;07_class.rtf
+RTF;08_cars.rtf
+RTF;09_cars.rtf
+RTF;10_12_cars.rtf
+RTF;13_class.rtf
+Header2;Graphic Outputs
+FigureTitle;Figure 1: Class overview by sex and age
+Figure;img1_image.jpg
+FigureTitle;Figure 2: Huge sized graphic
+Figure;img2_width.gif
+FigureTitle;Figure 3: Portrait graphic
+Figure;img3_height.png
+FigureTitle;Figure 4: repetition[linefeed]with a second line
+Figure;img1_image.jpg
+Header2;TAGSETS.RTF Outputs
+TAGSETS.RTF;14_class.rtf
+TAGSETS.RTF;15_cars.rtf
+TAGSETS.RTF;16_cars.rtf
+TAGSETS.RTF;17_19_cars.rtf
+TAGSETS.RTF;20_class.rtf
+TAGSETS.RTF;100_cars.rtf
+TAGSETS.RTF;103_class.rtf
+Header2;Outputs including page numbers in titles
+Listing;30_class.lst
+RTF;31_class.rtf
+TAGSETS.RTF;32_class_tagset.rtf
+Listing;33_cars.lst
+RTF;34_cars.rtf
+TAGSETS.RTF;35_cars_tagset.rtf
+

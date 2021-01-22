@@ -1,10 +1,12 @@
-INFO: Reindeer ResultRenderer starting : 30.10.2020 14:13:25
+INFO: Reindeer ResultRenderer starting : 22.01.2021 14:05:54
+INFO: *********** configuration *****************
 INFO: ConfigurationFile = 
 INFO: ContentFile = 
 INFO: ResultsBasePath = C:\temp\git\reindeer\out
 INFO: ToolLog = C:\temp\git\reindeer\out\Reindeer.log
-INFO: ToolOutput = C:\temp\git\reindeer\out\final_out.docx
-INFO: ToolTemplate = C:\temp\git\reindeer\doc\Reindeer_ExampleTemplate.docx
+INFO: ToolOutput = C:\temp\git\reindeer\out\final_result.docx
+INFO: ToolPDFOutput = C:\temp\git\reindeer\out\final_result.pdf
+INFO: ToolTemplate = C:\temp\git\reindeer\doc\Reindeer_TemplateCourierNav.docx
 INFO: FontHeading1 = CustomHeader 1
 INFO: FontHeading2 = CustomHeader 2
 INFO: FontHeading3 = 
@@ -14,6 +16,11 @@ INFO: FontContentRTF = CustomRTFResult
 INFO: FigureMaxHeight =  0
 INFO: FigureMaxWidth =  0
 INFO: TodayDateFormat = 
+INFO: SpecialPageHandling = Wahr
+INFO: FileSeparator = \
+INFO: *******************************************
+INFO: Used Figure maximum Height: 374
+INFO: Used Figure maximum Width:  709
 INFO: Process Listing File: 01_class.lst
 INFO: Process Listing File: 02_cars.lst
 INFO: Process Listing File: 03_cars_page.lst
@@ -22,14 +29,22 @@ INFO: Process RTF file: 07_class.rtf
 INFO: Process RTF file: 08_cars.rtf
 INFO: Process RTF file: 09_cars.rtf
 INFO: Process RTF file: 10_12_cars.rtf
-INFO: Process RTF file: 12_2_class.rtf
-INFO: Process Figure file: 19_image.jpg
-INFO: Process Figure file: 20_width.gif
-INFO: Process Figure file: 21_height.png
-INFO: Process Figure file: 19_image.jpg
 INFO: Process RTF file: 13_class.rtf
-INFO: Process RTF file: 14_cars.rtf
+INFO: Process Figure file: img1_image.jpg
+INFO: Process Figure file: img2_width.gif
+INFO: Process Figure file: img3_height.png
+INFO: Process Figure file: img1_image.jpg
+INFO: Process RTF file: 14_class.rtf
 INFO: Process RTF file: 15_cars.rtf
-INFO: Process RTF file: 16_18_cars.rtf
-INFO: Process RTF file: 18_2_class.rtf
-INFO: Reindeer ResultRenderer finished : 30.10.2020 14:14:04
+INFO: Process RTF file: 16_cars.rtf
+INFO: Process RTF file: 17_19_cars.rtf
+INFO: Process RTF file: 20_class.rtf
+INFO: Process RTF file: 100_cars.rtf
+INFO: Process RTF file: 103_class.rtf
+INFO: Process Listing File: 30_class.lst
+INFO: Process RTF file: 31_class.rtf
+INFO: Process RTF file: 32_class_tagset.rtf
+INFO: Process Listing File: 33_cars.lst
+INFO: Process RTF file: 34_cars.rtf
+INFO: Process RTF file: 35_cars_tagset.rtf
+INFO: Reindeer ResultRenderer finished : 22.01.2021 14:07:03
