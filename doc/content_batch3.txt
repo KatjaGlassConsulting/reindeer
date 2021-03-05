@@ -1,0 +1,6 @@
+Replace;[todayDate];[todayDate]
+Replace;[reportID];REPI025889
+Replace;[creator];Katja Glass Consulting
+Replace;[sponsor];ClinStat GmbH
+Header1;Reindeer Example Document
+Listing;03_cars_page.lst

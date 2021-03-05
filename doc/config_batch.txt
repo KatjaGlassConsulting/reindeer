@@ -1,0 +1,21 @@
+Tool Log;C:\temp\git\reindeer\out\Reindeer_log.log
+Tool Output;C:\temp\git\reindeer\out\out_batch1.docx
+Tool PDF Output;C:\temp\git\reindeer\out\out_batch1.pdf
+Tool Template;C:\temp\git\reindeer\doc\Reindeer_TemplateCourierNav.docx
+Result Base Path;C:\temp\git\reindeer\out
+Content;C:\temp\git\reindeer\doc\content_batch1.txt
+SpecialPageHandling;Yes
+Heading 1;CustomHeader 1
+Heading 2;CustomHeader 2
+Heading 3;CustomHeader 3
+Title Caption;CustomCaption
+Content Font Text;CustomTextResult
+Content Font RTF;CustomRTFResult
+Batch
+Tool Output;C:\temp\git\reindeer\out\out_batch2.docx
+Tool PDF Output;C:\temp\git\reindeer\out\out_batch2.pdf
+Content;C:\temp\git\reindeer\doc\content_batch2.txt
+Batch
+Tool Output;C:\temp\git\reindeer\out\out_batch3.docx
+Tool PDF Output;C:\temp\git\reindeer\out\out_batch3.pdf
+Content;C:\temp\git\reindeer\doc\content_batch3.txt

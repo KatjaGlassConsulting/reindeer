@@ -1,4 +1,4 @@
-INFO: Reindeer ResultRenderer starting : 22.01.2021 14:05:54
+INFO: Reindeer ResultRenderer starting : 05.03.2021 09:53:32
 INFO: *********** configuration *****************
 INFO: ConfigurationFile = 
 INFO: ContentFile = 
@@ -18,6 +18,8 @@ INFO: FigureMaxWidth =  0
 INFO: TodayDateFormat = 
 INFO: SpecialPageHandling = Wahr
 INFO: FileSeparator = \
+INFO: isBatch = Falsch
+INFO: BatchCount = 0
 INFO: *******************************************
 INFO: Used Figure maximum Height: 374
 INFO: Used Figure maximum Width:  709
@@ -31,9 +33,13 @@ INFO: Process RTF file: 09_cars.rtf
 INFO: Process RTF file: 10_12_cars.rtf
 INFO: Process RTF file: 13_class.rtf
 INFO: Process Figure file: img1_image.jpg
+INFO: Not supported content tag: Figure
 INFO: Process Figure file: img2_width.gif
+INFO: Not supported content tag: Figure
 INFO: Process Figure file: img3_height.png
+INFO: Not supported content tag: Figure
 INFO: Process Figure file: img1_image.jpg
+INFO: Not supported content tag: Figure
 INFO: Process RTF file: 14_class.rtf
 INFO: Process RTF file: 15_cars.rtf
 INFO: Process RTF file: 16_cars.rtf
@@ -47,4 +53,4 @@ INFO: Process RTF file: 32_class_tagset.rtf
 INFO: Process Listing File: 33_cars.lst
 INFO: Process RTF file: 34_cars.rtf
 INFO: Process RTF file: 35_cars_tagset.rtf
-INFO: Reindeer ResultRenderer finished : 22.01.2021 14:07:03
+INFO: Reindeer ResultRenderer finished : 05.03.2021 09:54:29

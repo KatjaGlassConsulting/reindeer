@@ -1,0 +1,41 @@
+INFO: Reindeer ResultRenderer starting : 05.03.2021 10:02:05
+INFO: *********** configuration *****************
+INFO: ConfigurationFile = C:\temp\git\reindeer\doc\config_batch.txt
+INFO: ContentFile = C:\temp\git\reindeer\doc\content_batch1.txt
+INFO: ResultsBasePath = C:\temp\git\reindeer\out
+INFO: ToolLog = C:\temp\git\reindeer\out\Reindeer_log.log
+INFO: ToolOutput = C:\temp\git\reindeer\out\out_batch1.docx
+INFO: ToolPDFOutput = C:\temp\git\reindeer\out\out_batch1.pdf
+INFO: ToolTemplate = C:\temp\git\reindeer\doc\Reindeer_TemplateCourierNav.docx
+INFO: FontHeading1 = CustomHeader 1
+INFO: FontHeading2 = CustomHeader 2
+INFO: FontHeading3 = CustomHeader 3
+INFO: FontTitleCaption = CustomCaption
+INFO: FontContentText = CustomTextResult
+INFO: FontContentRTF = CustomRTFResult
+INFO: FigureMaxHeight =  0
+INFO: FigureMaxWidth =  0
+INFO: TodayDateFormat = 
+INFO: SpecialPageHandling = Wahr
+INFO: FileSeparator = \
+INFO: isBatch = Wahr
+INFO: BatchCount = 2
+INFO: *******************************************
+INFO: Used Figure maximum Height: 374
+INFO: Used Figure maximum Width:  709
+INFO: Process Listing File: 01_class.lst
+INFO: *********** Batch Processing *****************
+INFO: Include into Batch Processing Tool Output;C:\temp\git\reindeer\out\out_batch2.docx
+INFO: Include into Batch Processing Tool PDF Output;C:\temp\git\reindeer\out\out_batch2.pdf
+INFO: Include into Batch Processing Content;C:\temp\git\reindeer\doc\content_batch2.txt
+INFO: Used Figure maximum Height: 374
+INFO: Used Figure maximum Width:  709
+INFO: Process Listing File: 02_cars.lst
+INFO: *********** Batch Processing *****************
+INFO: Include into Batch Processing Tool Output;C:\temp\git\reindeer\out\out_batch3.docx
+INFO: Include into Batch Processing Tool PDF Output;C:\temp\git\reindeer\out\out_batch3.pdf
+INFO: Include into Batch Processing Content;C:\temp\git\reindeer\doc\content_batch3.txt
+INFO: Used Figure maximum Height: 374
+INFO: Used Figure maximum Width:  709
+INFO: Process Listing File: 03_cars_page.lst
+INFO: Reindeer ResultRenderer finished : 05.03.2021 10:02:14
